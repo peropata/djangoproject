@@ -93,6 +93,16 @@ DATABASES = {
     }
 }
 
+# pythonanywhere database setting
+# DATABASES = {
+#     'default':{
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'peropata$djangoproject',
+#         'USER': 'peropata',
+#         'PASSWORD': 'root1234',
+#         'HOST': 'peropata.mysql.pythonanywhere-services.com',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators

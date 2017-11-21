@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2daf441-bbc4-467f-91af-0d4048d7a4d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charts/urls.py" afterPath="$PROJECT_DIR$/charts/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djangoproject/settings.py" afterPath="$PROJECT_DIR$/djangoproject/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djangoproject/urls.py" afterPath="$PROJECT_DIR$/djangoproject/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ch2_select_form.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ch2_select_form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/charts/templates/charts/ch2_select_form.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -57,6 +59,28 @@
                 <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
                 <element signature="e#1997#2003#1#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/charts/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/djangoproject/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,7 +115,6 @@
         <option value="$PROJECT_DIR$/posts/urls.py" />
         <option value="$PROJECT_DIR$/posts/templates/posts/index.html" />
         <option value="$PROJECT_DIR$/posts/templates/posts/layout.html" />
-        <option value="$PROJECT_DIR$/djangoproject/urls.py" />
         <option value="$PROJECT_DIR$/djangoproject/logger_settings.py" />
         <option value="$PROJECT_DIR$/posts/models.py" />
         <option value="$PROJECT_DIR$/charts/templates/charts/index.html" />
@@ -102,15 +125,16 @@
         <option value="$PROJECT_DIR$/charts/templates/charts/upload_cvs_debug.html" />
         <option value="$PROJECT_DIR$/charts/templates/charts/layout.html" />
         <option value="$PROJECT_DIR$/charts/static/css/charts.css" />
-        <option value="$PROJECT_DIR$/djangoproject/settings.py" />
         <option value="$PROJECT_DIR$/logs/ErrorLoggers.log" />
         <option value="$PROJECT_DIR$/charts/models.py" />
-        <option value="$PROJECT_DIR$/charts/urls.py" />
         <option value="$PROJECT_DIR$/charts/templates/charts/t_in.html" />
         <option value="$PROJECT_DIR$/charts/views.py" />
         <option value="$PROJECT_DIR$/charts/static/js/charts.js" />
         <option value="$PROJECT_DIR$/charts/templates/charts/show_charts.html" />
         <option value="$PROJECT_DIR$/charts/templates/charts/ch2_select_form.html" />
+        <option value="$PROJECT_DIR$/djangoproject/urls.py" />
+        <option value="$PROJECT_DIR$/charts/urls.py" />
+        <option value="$PROJECT_DIR$/djangoproject/settings.py" />
       </list>
     </option>
   </component>
@@ -148,6 +172,16 @@
           <expand>
             <path>
               <item name="djangoproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="djangoproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="djangoproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="djangoproject" type="462c0819:PsiDirectoryNode" />
+              <item name="charts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="djangoproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="djangoproject" type="462c0819:PsiDirectoryNode" />
               <item name="djangoproject" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -367,14 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangoproject/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/posts/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -399,14 +425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangoproject/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="130" column="2" lean-forward="true" selection-start-line="130" selection-start-column="2" selection-end-line="130" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/charts/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -422,16 +440,6 @@
         <state relative-caret-position="85">
           <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/charts/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="70" lean-forward="true" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -517,6 +525,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/djangoproject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/charts/templates/charts/ch2_select_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -526,6 +542,24 @@
             <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
             <element signature="e#1997#2003#1#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charts/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangoproject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
