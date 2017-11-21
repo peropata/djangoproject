@@ -1,0 +1,27 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="{% static 'js/charts.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/charts.css' %}">
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>D3 charts</title>
+</head>
+<body>
+  <header class="container center-align">
+    <h1>D3 charts</h1>
+  </header>
+
+  <div class="container">
+    {% block content %}
+    {% endblock %}
+    <br>
+
+    <a style="display:block" class="center-align" href="/admin">Admin Login</a>
+  </div>
+</body>
+</html>

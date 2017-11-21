@@ -1,0 +1,17 @@
+{% extends 'charts/layout.html' %}
+
+{% block content %}
+{{ line }} <br>
+{{ line_len }}<br>
+{{ patient.first_name }}<br>
+{{ patient.last_name }}<br>
+{{ patient.gender }}<br>
+{{ patient.date_of_surgery}}<br>
+{{ patient.icd10procedure }}<br>
+{{ patient.city }}<br>
+{{ patient.date_of_birth }}<br>
+{{ patient.icd10desc}}<br>
+
+<h3 class="center-align">Upload cvs content Debug</h3>
+{% endblock %}
+

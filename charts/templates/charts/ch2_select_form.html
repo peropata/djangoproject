@@ -1,0 +1,57 @@
+<div class="form-group row">
+    <div class="col-xs-2">
+        <label for="sel1">Age range:</label>
+        <select class="form-control" id="sel1" onchange = "update_chart_02()">
+            <option>30</option>
+            <option selected="selected">20</option>
+            <option>10</option>
+            <option>5</option>
+        </select>
+    </div>
+    <div class="col-xs-2">
+        <label for="sel2">From year :</label>
+        <select class="form-control" id="sel_year_from" onchange = "update_chart_02()">
+            <option>2015</option>
+            <option selected="selected">2016</option>
+            <option>2017</option>
+        </select>
+    </div>
+    <div class="col-xs-2" style="width:100px;">
+        <label for="sel2" >month:</label>
+        <select class="form-control" id="sel_month_from" onchange = "update_chart_02()">
+            {% for month in range_months %}
+                {% if month == 1 %}
+                    <option selected="selected">{{ month }}</option>
+                {% else %}
+                    <option>{{ month }}</option>
+                {% endif %}
+            {% endfor %}
+        </select>
+    </div>
+    <div class="col-xs-2">
+        <label for="sel2">To year :</label>
+        <select class="form-control" id="sel_year_to" onchange = "update_chart_02()">
+            <option>2015</option>
+            <option>2016</option>
+            <option selected="selected">2017</option>
+        </select>
+    </div>
+    <div class="col-xs-2" style="width:100px;">
+        <label for="sel2">month:</label>
+        <select class="form-control" id="sel_month_to" onchange = "update_chart_02()">
+            {% for month in range_months %}
+                {% if month == 12 %}
+                    <option selected="selected">{{ month }}</option>
+                {% else %}
+                    <option>{{ month }}</option>
+                {% endif %}
+            {% endfor %}
+      </select>
+    </div>
+    <div class="col-xs-2">
+        <label for="sel2">&nbsp;</label>
+        <button class="form-control" onclick = "update_chart_02_zoom_all({{ date_min.year }}, {{ date_min.month }}, {{ date_max.year }}, {{ date_max.month }})">
+            Zoom all
+        </button>
+    </div>
+</div>

@@ -1,0 +1,51 @@
+{% extends 'charts/layout.html' %}
+
+{% block content %}
+
+{#{{ date_min}}<br>#}
+{#{{ date_max}}<br>#}
+
+<h3 class="center-align">Show charts ...</h3>
+
+    {# chart 02 #}
+	<div>
+        <h3 class="center-align">Chart 01:</h3>
+	    <svg width="640" height="300" id="svg_chart_01"></svg>
+	</div>
+
+    <script type="text/javascript">
+		chart_01({{ data_ch01 | safe }});
+	</script>
+
+    {# chart 02 #}
+    <h3 class="center-align">Chart 02:</h3>
+    {% include "charts/ch2_select_form.html" %}
+    <div>
+	    <svg width="640" height="300" id="svg_chart_02"></svg>
+	</div>
+
+    <script type="text/javascript">
+		chart_02({{ data_ch02 | safe }});
+	</script>
+
+    {# chart 03 #}
+    <div>
+        <h3 class="center-align">Chart 03:</h3>
+	    <svg width="640" height="300" id="svg_chart_03"></svg>
+	</div>
+
+    <script type="text/javascript">
+		chart_03({{ data_ch03 | safe }});
+	</script>
+
+    {# chart 04 #}
+    <div>
+        <h3 class="center-align">Chart 04:</h3>
+	    <svg width="640" height="300" id="svg_chart_04"></svg>
+	</div>
+
+    <script type="text/javascript">
+		chart_04({{ data_ch04 | safe }});
+	</script>
+
+{% endblock %}
